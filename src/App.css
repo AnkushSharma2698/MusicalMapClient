@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  height:100vh;
+}
+
+.flex {
+  justify-content: center;
+}
+
+.particles {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left: 0;
+  z-index: -1;
+}
+
+div, button {
+  margin:15px;
+}
+
+/* //fade props */
+.fade-enter {
+  opacity: 0;
+  z-index: 2;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1200ms ease-in;
+}
